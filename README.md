@@ -1,21 +1,4 @@
-#
-# ADS
-
-#
-
-# Listing System
-
-# v
-
-#
-
-# 0.
-
-# 1
-
-# .
-
-# 0
+## ADS Listing System v 0.1.0
 
 The **Ads Listings Site** (ALS) provides users the ability to view and createalisting by category and location. Users can register and login to view advertisements or create their own.
 
