@@ -1,0 +1,56 @@
+/* Users heihght animation on enter/leave */
+.users-enter.users-enter-active,
+.users-leave.users-leave-active {
+  overflow: hidden;
+  transition: all 1s ease-in;
+}
+
+.users-enter,
+.users-leave.users-leave-active {
+  height: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.users-enter.users-enter-active,
+.users-leave {
+  height:250px;
+  margin-bottom: 20px;
+  opacity: 1;
+  padding-bottom: 4px;
+  padding-top: 15px;
+}
+
+
+/* Ads fading on enter/leave */
+.ads-enter {
+  opacity: 0.01;
+  overflow: hidden;
+}
+
+.ads-enter.ads-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.ads-leave {
+  opacity: 1;
+}
+
+.ads-leave.ads-leave-active {
+  opacity: 0.01;
+  transition: opacity 1s ease-in;
+}
+
+
+/* Initial appear on mount */
+.ads-head-appear {
+  opacity: 0.01;
+}
+
+.ads-head-appear.ads-head-appear-active {
+  opacity: 1;
+  transition: opacity 5s ease-in;
+}

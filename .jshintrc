@@ -1,0 +1,18 @@
+{
+  //"esversion": 6,
+  "browser": true,
+  "node": true,
+  "camelcase": false,
+  "esnext": true,
+  "indent": 2,
+  "latedef": false,
+  "newcap": true
+}
+/*{
+  "browser": true,
+  "camelcase": false,
+  "esnext": true,
+  "indent": 2,
+  "latedef": false,
+  "newcap": true
+}*/
